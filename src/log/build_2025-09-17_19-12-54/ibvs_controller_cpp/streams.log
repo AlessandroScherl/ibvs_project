@@ -1,0 +1,11 @@
+[0.006s] Invoking command in '/home/mluser/ibvs_project/src/build/ibvs_controller_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/src/build/ibvs_controller_cpp -- -j16 -l16
+[0.048s] [ 25%] Building CXX object CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o
+[0.235s] In file included from /home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:1:
+[0.235s] /home/mluser/ibvs_project/src/ibvs_controller_cpp/include/ibvs_controller_cpp/camera_controller.hpp:8:10: fatal error: cv_bridge/cv_bridge.h: No such file or directory
+[0.235s]     8 | #include <cv_bridge/cv_bridge.h>
+[0.235s]       |          ^~~~~~~~~~~~~~~~~~~~~~~
+[0.235s] compilation terminated.
+[0.240s] gmake[2]: *** [CMakeFiles/ibvs_controller_lib.dir/build.make:76: CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o] Error 1
+[0.240s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ibvs_controller_lib.dir/all] Error 2
+[0.240s] gmake: *** [Makefile:146: all] Error 2
+[0.242s] Invoked command in '/home/mluser/ibvs_project/src/build/ibvs_controller_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/src/build/ibvs_controller_cpp -- -j16 -l16

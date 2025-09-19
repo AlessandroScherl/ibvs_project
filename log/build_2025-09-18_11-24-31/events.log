@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (-) JobUnselected: {'identifier': 'ibvs_controller'}
+[0.000328] (-) JobUnselected: {'identifier': 'ibvs_simulation'}
+[0.000340] (ibvs_controller_cpp) JobQueued: {'identifier': 'ibvs_controller_cpp', 'dependencies': OrderedDict()}
+[0.000351] (ibvs_controller_cpp) JobStarted: {'identifier': 'ibvs_controller_cpp'}
+[0.005066] (ibvs_controller_cpp) JobProgress: {'identifier': 'ibvs_controller_cpp', 'progress': 'cmake'}
+[0.005546] (ibvs_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/mluser/ibvs_project/src/ibvs_controller_cpp', '-DCMAKE_INSTALL_PREFIX=/home/mluser/ibvs_project/install/ibvs_controller_cpp'], 'cwd': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mluser', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mluser', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/mluser/ibvs_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4098', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mluser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mluser', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mluser/.npm-global/bin:/home/mluser/.local/bin:/home/mluser/anaconda3/envs/ros2/bin:/home/mluser/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neuralforge:@/tmp/.ICE-unix/4066,unix/neuralforge:/tmp/.ICE-unix/4066', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/710bc5d5_edbc_460b_8546_38e7a9181655', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/mluser/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mluser/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099931] (-) TimerEvent: {}
+[0.108019] (ibvs_controller_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.193612] (ibvs_controller_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199996] (-) TimerEvent: {}
+[0.208075] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.276282] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281762] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.282687] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282995] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294834] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300059] (-) TimerEvent: {}
+[0.365297] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.371394] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.371559] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.371864] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.378057] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400126] (-) TimerEvent: {}
+[0.453964] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found Python3: /home/mluser/anaconda3/envs/ros2/bin/python3 (found version "3.11.13") found components: Interpreter \n'}
+[0.500202] (-) TimerEvent: {}
+[0.555442] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.600276] (-) TimerEvent: {}
+[0.603519] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.618113] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.636040] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.653965] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700347] (-) TimerEvent: {}
+[0.726534] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.730190] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800471] (-) TimerEvent: {}
+[0.810945] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.825096] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.841053] (ibvs_controller_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900537] (-) TimerEvent: {}
+[0.908723] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.959421] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.973651] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)\n'}
+[1.000607] (-) TimerEvent: {}
+[1.004161] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.009340] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.100637] (-) TimerEvent: {}
+[1.107226] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[1.111662] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.195201] (ibvs_controller_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.195356] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mluser/ibvs_project/src/ibvs_controller_cpp/include>\n'}
+[1.195402] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.196233] (ibvs_controller_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.197662] (ibvs_controller_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.197716] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.198469] (ibvs_controller_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.199833] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.200695] (-) TimerEvent: {}
+[1.214411] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.217324] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/mluser/ibvs_project/build/ibvs_controller_cpp\n'}
+[1.225519] (ibvs_controller_cpp) CommandEnded: {'returncode': 0}
+[1.225857] (ibvs_controller_cpp) JobProgress: {'identifier': 'ibvs_controller_cpp', 'progress': 'build'}
+[1.226219] (ibvs_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mluser/ibvs_project/build/ibvs_controller_cpp', '--', '-j16', '-l16'], 'cwd': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mluser', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mluser', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/mluser/ibvs_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4098', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mluser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mluser', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mluser/.npm-global/bin:/home/mluser/.local/bin:/home/mluser/anaconda3/envs/ros2/bin:/home/mluser/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neuralforge:@/tmp/.ICE-unix/4066,unix/neuralforge:/tmp/.ICE-unix/4066', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/710bc5d5_edbc_460b_8546_38e7a9181655', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/mluser/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mluser/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.266696] (ibvs_controller_cpp) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o\n'}
+[1.300770] (-) TimerEvent: {}
+[1.400880] (-) TimerEvent: {}
+[1.500994] (-) TimerEvent: {}
+[1.601119] (-) TimerEvent: {}
+[1.701251] (-) TimerEvent: {}
+[1.801399] (-) TimerEvent: {}
+[1.901538] (-) TimerEvent: {}
+[2.001676] (-) TimerEvent: {}
+[2.101817] (-) TimerEvent: {}
+[2.201965] (-) TimerEvent: {}
+[2.302101] (-) TimerEvent: {}
+[2.402247] (-) TimerEvent: {}
+[2.502392] (-) TimerEvent: {}
+[2.602542] (-) TimerEvent: {}
+[2.702651] (-) TimerEvent: {}
+[2.802790] (-) TimerEvent: {}
+[2.902925] (-) TimerEvent: {}
+[3.003071] (-) TimerEvent: {}
+[3.103208] (-) TimerEvent: {}
+[3.117169] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp: In member function \xe2\x80\x98cv::Mat ibvs_controller::CameraController::computeInteractionMatrix(const std::vector<cv::KeyPoint>&, const cv::Mat&)\xe2\x80\x99:\n'}
+[3.117431] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:187:18: warning: unused parameter \xe2\x80\x98depth_image\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.117499] (ibvs_controller_cpp) StderrLine: {'line': b'  187 |   const cv::Mat& depth_image)\n'}
+[3.117543] (ibvs_controller_cpp) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~~~~~~~~\n'}
+[3.117579] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp: In member function \xe2\x80\x98geometry_msgs::msg::Twist ibvs_controller::CameraController::computeVelocityCommand(const std::vector<cv::KeyPoint>&, const std::vector<cv::KeyPoint>&, const cv::Mat&)\xe2\x80\x99:\n'}
+[3.117622] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:203:36: warning: unused parameter \xe2\x80\x98current_features\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.117659] (ibvs_controller_cpp) StderrLine: {'line': b'  203 |   const std::vector<cv::KeyPoint>& current_features,\n'}
+[3.117689] (ibvs_controller_cpp) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\n'}
+[3.117716] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:204:36: warning: unused parameter \xe2\x80\x98desired_features\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.117744] (ibvs_controller_cpp) StderrLine: {'line': b'  204 |   const std::vector<cv::KeyPoint>& desired_features,\n'}
+[3.117771] (ibvs_controller_cpp) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\n'}
+[3.117796] (ibvs_controller_cpp) StderrLine: {'line': b'/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:205:18: warning: unused parameter \xe2\x80\x98interaction_matrix\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.117830] (ibvs_controller_cpp) StderrLine: {'line': b'  205 |   const cv::Mat& interaction_matrix)\n'}
+[3.117857] (ibvs_controller_cpp) StderrLine: {'line': b'      |   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\n'}
+[3.203295] (-) TimerEvent: {}
+[3.303434] (-) TimerEvent: {}
+[3.403573] (-) TimerEvent: {}
+[3.503727] (-) TimerEvent: {}
+[3.603869] (-) TimerEvent: {}
+[3.704006] (-) TimerEvent: {}
+[3.804149] (-) TimerEvent: {}
+[3.904283] (-) TimerEvent: {}
+[4.004421] (-) TimerEvent: {}
+[4.104557] (-) TimerEvent: {}
+[4.204657] (-) TimerEvent: {}
+[4.304794] (-) TimerEvent: {}
+[4.404936] (-) TimerEvent: {}
+[4.505078] (-) TimerEvent: {}
+[4.605229] (-) TimerEvent: {}
+[4.705417] (-) TimerEvent: {}
+[4.805600] (-) TimerEvent: {}
+[4.905770] (-) TimerEvent: {}
+[5.005926] (-) TimerEvent: {}
+[5.106092] (-) TimerEvent: {}
+[5.206248] (-) TimerEvent: {}
+[5.306395] (-) TimerEvent: {}
+[5.406538] (-) TimerEvent: {}
+[5.506664] (-) TimerEvent: {}
+[5.606852] (-) TimerEvent: {}
+[5.707053] (-) TimerEvent: {}
+[5.807207] (-) TimerEvent: {}
+[5.907351] (-) TimerEvent: {}
+[6.007522] (-) TimerEvent: {}
+[6.107655] (-) TimerEvent: {}
+[6.207803] (-) TimerEvent: {}
+[6.307958] (-) TimerEvent: {}
+[6.408118] (-) TimerEvent: {}
+[6.508250] (-) TimerEvent: {}
+[6.608398] (-) TimerEvent: {}
+[6.708517] (-) TimerEvent: {}
+[6.808651] (-) TimerEvent: {}
+[6.908765] (-) TimerEvent: {}
+[7.008889] (-) TimerEvent: {}
+[7.109011] (-) TimerEvent: {}
+[7.209138] (-) TimerEvent: {}
+[7.309259] (-) TimerEvent: {}
+[7.409383] (-) TimerEvent: {}
+[7.509503] (-) TimerEvent: {}
+[7.609634] (-) TimerEvent: {}
+[7.709753] (-) TimerEvent: {}
+[7.809877] (-) TimerEvent: {}
+[7.909994] (-) TimerEvent: {}
+[8.010123] (-) TimerEvent: {}
+[8.110250] (-) TimerEvent: {}
+[8.210376] (-) TimerEvent: {}
+[8.310497] (-) TimerEvent: {}
+[8.410631] (-) TimerEvent: {}
+[8.510756] (-) TimerEvent: {}
+[8.610891] (-) TimerEvent: {}
+[8.711046] (-) TimerEvent: {}
+[8.811208] (-) TimerEvent: {}
+[8.911359] (-) TimerEvent: {}
+[9.011535] (-) TimerEvent: {}
+[9.079336] (ibvs_controller_cpp) StdoutLine: {'line': b'[ 50%] Linking CXX static library libibvs_controller_lib.a\n'}
+[9.111602] (-) TimerEvent: {}
+[9.202906] (ibvs_controller_cpp) StdoutLine: {'line': b'[ 50%] Built target ibvs_controller_lib\n'}
+[9.211632] (-) TimerEvent: {}
+[9.219671] (ibvs_controller_cpp) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/camera_controller_node.dir/src/camera_controller_node.cpp.o\n'}
+[9.311715] (-) TimerEvent: {}
+[9.411853] (-) TimerEvent: {}
+[9.511995] (-) TimerEvent: {}
+[9.612140] (-) TimerEvent: {}
+[9.712279] (-) TimerEvent: {}
+[9.812423] (-) TimerEvent: {}
+[9.912561] (-) TimerEvent: {}
+[10.012659] (-) TimerEvent: {}
+[10.112804] (-) TimerEvent: {}
+[10.212946] (-) TimerEvent: {}
+[10.313081] (-) TimerEvent: {}
+[10.413221] (-) TimerEvent: {}
+[10.513360] (-) TimerEvent: {}
+[10.613500] (-) TimerEvent: {}
+[10.713642] (-) TimerEvent: {}
+[10.813783] (-) TimerEvent: {}
+[10.913924] (-) TimerEvent: {}
+[11.014072] (-) TimerEvent: {}
+[11.114213] (-) TimerEvent: {}
+[11.214355] (-) TimerEvent: {}
+[11.314494] (-) TimerEvent: {}
+[11.414639] (-) TimerEvent: {}
+[11.514771] (-) TimerEvent: {}
+[11.614914] (-) TimerEvent: {}
+[11.715055] (-) TimerEvent: {}
+[11.815201] (-) TimerEvent: {}
+[11.915339] (-) TimerEvent: {}
+[12.015470] (-) TimerEvent: {}
+[12.115596] (-) TimerEvent: {}
+[12.215736] (-) TimerEvent: {}
+[12.315865] (-) TimerEvent: {}
+[12.414062] (ibvs_controller_cpp) StdoutLine: {'line': b'[100%] Linking CXX executable camera_controller_node\n'}
+[12.415922] (-) TimerEvent: {}
+[12.516033] (-) TimerEvent: {}
+[12.616216] (-) TimerEvent: {}
+[12.716359] (-) TimerEvent: {}
+[12.816512] (-) TimerEvent: {}
+[12.848578] (ibvs_controller_cpp) StdoutLine: {'line': b'[100%] Built target camera_controller_node\n'}
+[12.857017] (ibvs_controller_cpp) CommandEnded: {'returncode': 0}
+[12.857482] (ibvs_controller_cpp) JobProgress: {'identifier': 'ibvs_controller_cpp', 'progress': 'install'}
+[12.863617] (ibvs_controller_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mluser/ibvs_project/build/ibvs_controller_cpp'], 'cwd': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'mluser', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mluser', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/mluser/ibvs_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4098', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mluser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mluser', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/mluser/.npm-global/bin:/home/mluser/.local/bin:/home/mluser/anaconda3/envs/ros2/bin:/home/mluser/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/neuralforge:@/tmp/.ICE-unix/4066,unix/neuralforge:/tmp/.ICE-unix/4066', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/710bc5d5_edbc_460b_8546_38e7a9181655', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/mluser/anaconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mluser/ibvs_project/build/ibvs_controller_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/mluser/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.869374] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.869495] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/camera_controller_node\n'}
+[12.875495] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mluser/ibvs_project/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/camera_controller_node" to ""\n'}
+[12.875593] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/libibvs_controller_lib.a\n'}
+[12.885442] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/include/ibvs_controller_cpp\n'}
+[12.885570] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp\n'}
+[12.885641] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp/camera_controller.hpp\n'}
+[12.885785] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ament_index/resource_index/package_run_dependencies/ibvs_controller_cpp\n'}
+[12.885936] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ament_index/resource_index/parent_prefix_path/ibvs_controller_cpp\n'}
+[12.886102] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.sh\n'}
+[12.886218] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.dsv\n'}
+[12.886335] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.sh\n'}
+[12.886446] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.dsv\n'}
+[12.886559] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.bash\n'}
+[12.886684] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.sh\n'}
+[12.886808] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.zsh\n'}
+[12.886919] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.dsv\n'}
+[12.887030] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.dsv\n'}
+[12.887174] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ament_index/resource_index/packages/ibvs_controller_cpp\n'}
+[12.887312] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig.cmake\n'}
+[12.887420] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig-version.cmake\n'}
+[12.887535] (ibvs_controller_cpp) StdoutLine: {'line': b'-- Installing: /home/mluser/ibvs_project/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.xml\n'}
+[12.888501] (ibvs_controller_cpp) CommandEnded: {'returncode': 0}
+[12.897558] (ibvs_controller_cpp) JobEnded: {'identifier': 'ibvs_controller_cpp', 'rc': 0}
+[12.897836] (-) EventReactorShutdown: {}

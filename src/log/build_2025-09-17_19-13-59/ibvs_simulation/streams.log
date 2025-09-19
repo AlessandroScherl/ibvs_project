@@ -1,0 +1,48 @@
+[0.122s] Invoking command in '/home/mluser/ibvs_project/src/build/ibvs_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mluser/ibvs_project/src/ibvs_simulation -DCMAKE_INSTALL_PREFIX=/home/mluser/ibvs_project/src/install/ibvs_simulation
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.203s] -- The CXX compiler identification is GNU 13.3.0
+[0.219s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.447s] -- Found Python3: /home/mluser/anaconda3/envs/ros2/bin/python3 (found version "3.11.13") found components: Interpreter 
+[0.576s] -- Configuring done (0.4s)
+[0.578s] -- Generating done (0.0s)
+[0.579s] -- Build files have been written to: /home/mluser/ibvs_project/src/build/ibvs_simulation
+[0.582s] Invoked command in '/home/mluser/ibvs_project/src/build/ibvs_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mluser/ibvs_project/src/ibvs_simulation -DCMAKE_INSTALL_PREFIX=/home/mluser/ibvs_project/src/install/ibvs_simulation
+[0.583s] Invoking command in '/home/mluser/ibvs_project/src/build/ibvs_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/src/build/ibvs_simulation -- -j16 -l16
+[0.613s] Invoked command in '/home/mluser/ibvs_project/src/build/ibvs_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/src/build/ibvs_simulation -- -j16 -l16
+[0.613s] Invoking command in '/home/mluser/ibvs_project/src/build/ibvs_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mluser/ibvs_project/src/build/ibvs_simulation
+[0.618s] -- Install configuration: ""
+[0.618s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//launch
+[0.618s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//launch/ibvs_world.launch.py
+[0.618s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//worlds
+[0.618s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//worlds/ibvs_world.sdf
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//models
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//models/rgbd_camera_robot
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//models/rgbd_camera_robot/model.sdf
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//config
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation//config/ibvs.rviz
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ament_index/resource_index/package_run_dependencies/ibvs_simulation
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ament_index/resource_index/parent_prefix_path/ibvs_simulation
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/environment/ament_prefix_path.sh
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/environment/ament_prefix_path.dsv
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/environment/path.sh
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/environment/path.dsv
+[0.619s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/local_setup.bash
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/local_setup.sh
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/local_setup.zsh
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/local_setup.dsv
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/package.dsv
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ament_index/resource_index/packages/ibvs_simulation
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/cmake/ibvs_simulationConfig.cmake
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/cmake/ibvs_simulationConfig-version.cmake
+[0.620s] -- Installing: /home/mluser/ibvs_project/src/install/ibvs_simulation/share/ibvs_simulation/package.xml
+[0.621s] Invoked command in '/home/mluser/ibvs_project/src/build/ibvs_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mluser/ibvs_project/install/ibvs_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mluser/ibvs_project/src/build/ibvs_simulation

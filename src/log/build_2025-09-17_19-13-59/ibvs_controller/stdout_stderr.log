@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/ibvs_controller/ibvs_controller.egg-info
+writing ../build/ibvs_controller/ibvs_controller.egg-info/PKG-INFO
+writing dependency_links to ../build/ibvs_controller/ibvs_controller.egg-info/dependency_links.txt
+writing entry points to ../build/ibvs_controller/ibvs_controller.egg-info/entry_points.txt
+writing requirements to ../build/ibvs_controller/ibvs_controller.egg-info/requires.txt
+writing top-level names to ../build/ibvs_controller/ibvs_controller.egg-info/top_level.txt
+writing manifest file '../build/ibvs_controller/ibvs_controller.egg-info/SOURCES.txt'
+reading manifest file '../build/ibvs_controller/ibvs_controller.egg-info/SOURCES.txt'
+writing manifest file '../build/ibvs_controller/ibvs_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mluser/ibvs_project/src/build/ibvs_controller/build
+creating /home/mluser/ibvs_project/src/build/ibvs_controller/build/lib
+creating /home/mluser/ibvs_project/src/build/ibvs_controller/build/lib/ibvs_controller
+copying ibvs_controller/__init__.py -> /home/mluser/ibvs_project/src/build/ibvs_controller/build/lib/ibvs_controller
+running install
+running install_lib
+creating /home/mluser/ibvs_project/src/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller
+copying /home/mluser/ibvs_project/src/build/ibvs_controller/build/lib/ibvs_controller/__init__.py -> /home/mluser/ibvs_project/src/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller
+byte-compiling /home/mluser/ibvs_project/src/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mluser/ibvs_project/src/install/ibvs_controller/share/ament_index
+creating /home/mluser/ibvs_project/src/install/ibvs_controller/share/ament_index/resource_index
+creating /home/mluser/ibvs_project/src/install/ibvs_controller/share/ament_index/resource_index/packages
+copying resource/ibvs_controller -> /home/mluser/ibvs_project/src/install/ibvs_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/mluser/ibvs_project/src/install/ibvs_controller/share/ibvs_controller
+running install_egg_info
+Copying ../build/ibvs_controller/ibvs_controller.egg-info to /home/mluser/ibvs_project/src/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_controller script to /home/mluser/ibvs_project/src/install/ibvs_controller/lib/ibvs_controller
+writing list of installed files to '/home/mluser/ibvs_project/src/build/ibvs_controller/install.log'

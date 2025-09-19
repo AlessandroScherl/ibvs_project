@@ -1,0 +1,14 @@
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp: In member function ‘cv::Mat ibvs_controller::CameraController::computeInteractionMatrix(const std::vector<cv::KeyPoint>&, const cv::Mat&)’:
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:151:18: warning: unused parameter ‘depth_image’ [-Wunused-parameter]
+  151 |   const cv::Mat& depth_image)
+      |   ~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp: In member function ‘geometry_msgs::msg::Twist ibvs_controller::CameraController::computeVelocityCommand(const std::vector<cv::KeyPoint>&, const std::vector<cv::KeyPoint>&, const cv::Mat&)’:
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:167:36: warning: unused parameter ‘current_features’ [-Wunused-parameter]
+  167 |   const std::vector<cv::KeyPoint>& current_features,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:168:36: warning: unused parameter ‘desired_features’ [-Wunused-parameter]
+  168 |   const std::vector<cv::KeyPoint>& desired_features,
+      |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:169:18: warning: unused parameter ‘interaction_matrix’ [-Wunused-parameter]
+  169 |   const cv::Mat& interaction_matrix)
+      |   ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~

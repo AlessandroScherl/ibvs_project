@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/mluser/ibvs_project/build/ibvs_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/build/ibvs_simulation -- -j16 -l16
+[0.035s] Invoked command in '/home/mluser/ibvs_project/build/ibvs_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mluser/ibvs_project/build/ibvs_simulation -- -j16 -l16
+[0.041s] Invoking command in '/home/mluser/ibvs_project/build/ibvs_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mluser/ibvs_project/build/ibvs_simulation
+[0.047s] -- Install configuration: ""
+[0.047s] -- Execute custom install script
+[0.047s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation//launch/ibvs_world.launch.py
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation//worlds/ibvs_world.sdf
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation//models/rgbd_camera_robot/model.sdf
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation//config/ibvs.rviz
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ament_index/resource_index/package_run_dependencies/ibvs_simulation
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ament_index/resource_index/parent_prefix_path/ibvs_simulation
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/environment/ament_prefix_path.sh
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/environment/ament_prefix_path.dsv
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/environment/path.sh
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/environment/path.dsv
+[0.048s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/local_setup.bash
+[0.049s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/local_setup.sh
+[0.049s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/local_setup.zsh
+[0.049s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/local_setup.dsv
+[0.049s] -- Symlinking: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/package.dsv
+[0.055s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ament_index/resource_index/packages/ibvs_simulation
+[0.056s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/cmake/ibvs_simulationConfig.cmake
+[0.056s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/cmake/ibvs_simulationConfig-version.cmake
+[0.056s] -- Up-to-date symlink: /home/mluser/ibvs_project/install/ibvs_simulation/share/ibvs_simulation/package.xml
+[0.057s] Invoked command in '/home/mluser/ibvs_project/build/ibvs_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mluser/ibvs_project/build/ibvs_simulation

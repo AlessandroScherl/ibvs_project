@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing ibvs_controller.egg-info/PKG-INFO
+writing dependency_links to ibvs_controller.egg-info/dependency_links.txt
+writing requirements to ibvs_controller.egg-info/requires.txt
+writing top-level names to ibvs_controller.egg-info/top_level.txt
+reading manifest file 'ibvs_controller.egg-info/SOURCES.txt'
+writing manifest file 'ibvs_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs-controller.egg-link (link to .)
+
+Installed /home/mluser/ibvs_project/build/ibvs_controller
+running symlink_data

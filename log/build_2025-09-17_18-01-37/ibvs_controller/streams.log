@@ -1,0 +1,15 @@
+[0.395s] Invoking command in '/home/mluser/ibvs_project/build/ibvs_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mluser/ibvs_project/build/ibvs_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mluser/ibvs_project/build/ibvs_controller/build --no-deps symlink_data
+[0.556s] running develop
+[0.651s] running egg_info
+[0.660s] writing ibvs_controller.egg-info/PKG-INFO
+[0.660s] writing dependency_links to ibvs_controller.egg-info/dependency_links.txt
+[0.660s] writing requirements to ibvs_controller.egg-info/requires.txt
+[0.660s] writing top-level names to ibvs_controller.egg-info/top_level.txt
+[0.678s] reading manifest file 'ibvs_controller.egg-info/SOURCES.txt'
+[0.678s] writing manifest file 'ibvs_controller.egg-info/SOURCES.txt'
+[0.688s] running build_ext
+[0.688s] Creating /home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs-controller.egg-link (link to .)
+[0.688s] 
+[0.688s] Installed /home/mluser/ibvs_project/build/ibvs_controller
+[0.688s] running symlink_data
+[0.702s] Invoked command in '/home/mluser/ibvs_project/build/ibvs_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mluser/ibvs_project/build/ibvs_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mluser/ibvs_project/build/ibvs_controller/build --no-deps symlink_data

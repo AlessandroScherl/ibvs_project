@@ -1,0 +1,2 @@
+/usr/bin/ar qc libibvs_controller_lib.a CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o
+/usr/bin/ranlib libibvs_controller_lib.a

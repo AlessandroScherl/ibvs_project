@@ -1,0 +1,8 @@
+source;share/ibvs_simulation/hook/cmake_prefix_path.ps1
+source;share/ibvs_simulation/hook/cmake_prefix_path.dsv
+source;share/ibvs_simulation/hook/cmake_prefix_path.sh
+source;share/ibvs_simulation/local_setup.bash
+source;share/ibvs_simulation/local_setup.dsv
+source;share/ibvs_simulation/local_setup.ps1
+source;share/ibvs_simulation/local_setup.sh
+source;share/ibvs_simulation/local_setup.zsh

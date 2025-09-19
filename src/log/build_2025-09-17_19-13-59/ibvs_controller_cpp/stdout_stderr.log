@@ -1,0 +1,23 @@
+[ 50%] Built target ibvs_controller_lib
+[100%] Built target camera_controller_node
+-- Install configuration: ""
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/camera_controller_node
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/libibvs_controller_lib.a
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp/camera_controller.hpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/package_run_dependencies/ibvs_controller_cpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/parent_prefix_path/ibvs_controller_cpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.sh
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.dsv
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.bash
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.sh
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.zsh
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.dsv
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.dsv
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/packages/ibvs_controller_cpp
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig.cmake
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig-version.cmake
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.xml

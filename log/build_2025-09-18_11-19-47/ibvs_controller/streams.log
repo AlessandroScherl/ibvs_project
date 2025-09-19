@@ -1,0 +1,24 @@
+[0.423s] Invoking command in '/home/mluser/ibvs_project/src/ibvs_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mluser/ibvs_project/build/ibvs_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ibvs_controller build --build-base /home/mluser/ibvs_project/build/ibvs_controller/build install --record /home/mluser/ibvs_project/build/ibvs_controller/install.log --single-version-externally-managed install_data
+[0.547s] running egg_info
+[0.555s] writing ../../build/ibvs_controller/ibvs_controller.egg-info/PKG-INFO
+[0.555s] writing dependency_links to ../../build/ibvs_controller/ibvs_controller.egg-info/dependency_links.txt
+[0.555s] writing entry points to ../../build/ibvs_controller/ibvs_controller.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/ibvs_controller/ibvs_controller.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/ibvs_controller/ibvs_controller.egg-info/top_level.txt
+[0.573s] reading manifest file '../../build/ibvs_controller/ibvs_controller.egg-info/SOURCES.txt'
+[0.573s] writing manifest file '../../build/ibvs_controller/ibvs_controller.egg-info/SOURCES.txt'
+[0.573s] running build
+[0.573s] running build_py
+[0.573s] copying ibvs_controller/camera_controller.py -> /home/mluser/ibvs_project/build/ibvs_controller/build/lib/ibvs_controller
+[0.573s] running install
+[0.577s] running install_lib
+[0.585s] copying /home/mluser/ibvs_project/build/ibvs_controller/build/lib/ibvs_controller/camera_controller.py -> /home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller
+[0.586s] byte-compiling /home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller/camera_controller.py to camera_controller.cpython-312.pyc
+[0.586s] running install_data
+[0.586s] running install_egg_info
+[0.596s] removing '/home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[0.596s] Copying ../../build/ibvs_controller/ibvs_controller.egg-info to /home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages/ibvs_controller-0.0.0-py3.12.egg-info
+[0.596s] running install_scripts
+[0.658s] Installing camera_controller script to /home/mluser/ibvs_project/install/ibvs_controller/lib/ibvs_controller
+[0.658s] writing list of installed files to '/home/mluser/ibvs_project/build/ibvs_controller/install.log'
+[0.670s] Invoked command in '/home/mluser/ibvs_project/src/ibvs_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mluser/ibvs_project/build/ibvs_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mluser/ibvs_project/install/ibvs_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ibvs_controller build --build-base /home/mluser/ibvs_project/build/ibvs_controller/build install --record /home/mluser/ibvs_project/build/ibvs_controller/install.log --single-version-externally-managed install_data

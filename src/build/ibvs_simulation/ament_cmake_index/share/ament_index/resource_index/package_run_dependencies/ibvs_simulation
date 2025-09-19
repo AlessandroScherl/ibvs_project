@@ -1,0 +1,1 @@
+ros2launch;gazebo_ros_pkgs;robot_state_publisher;joint_state_publisher;xacro

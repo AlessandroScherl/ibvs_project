@@ -1,0 +1,28 @@
+[ 25%] Building CXX object CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o
+[ 50%] Linking CXX static library libibvs_controller_lib.a
+[ 50%] Built target ibvs_controller_lib
+[ 75%] Building CXX object CMakeFiles/camera_controller_node.dir/src/camera_controller_node.cpp.o
+[100%] Linking CXX executable camera_controller_node
+[100%] Built target camera_controller_node
+-- Install configuration: ""
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/camera_controller_node
+-- Set non-toolchain portion of runtime path of "/home/mluser/ibvs_project/src/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/camera_controller_node" to ""
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/lib/ibvs_controller_cpp/libibvs_controller_lib.a
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/include/ibvs_controller_cpp/ibvs_controller_cpp/camera_controller.hpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/package_run_dependencies/ibvs_controller_cpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/parent_prefix_path/ibvs_controller_cpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.sh
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/environment/path.dsv
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.bash
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.sh
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.zsh
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/local_setup.dsv
+-- Up-to-date: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.dsv
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ament_index/resource_index/packages/ibvs_controller_cpp
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig.cmake
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/cmake/ibvs_controller_cppConfig-version.cmake
+-- Installing: /home/mluser/ibvs_project/src/install/ibvs_controller_cpp/share/ibvs_controller_cpp/package.xml

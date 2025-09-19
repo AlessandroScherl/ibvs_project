@@ -1,0 +1,6 @@
+source;share/ibvs_controller/hook/pythonpath.ps1
+source;share/ibvs_controller/hook/pythonpath.dsv
+source;share/ibvs_controller/hook/pythonpath.sh
+source;share/ibvs_controller/hook/ament_prefix_path.ps1
+source;share/ibvs_controller/hook/ament_prefix_path.dsv
+source;share/ibvs_controller/hook/ament_prefix_path.sh

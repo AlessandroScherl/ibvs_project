@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(colcon:*)",
+      "Bash(ros2:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(sudo apt-get:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(dpkg:*)",
+      "Read(//opt/ros/jazzy/**)",
+      "Bash(chmod:*)",
+      "Bash(./test_ibvs.sh:*)",
+      "Bash(conda:*)",
+      "Bash(/usr/bin/python3:*)",
+      "Bash(timeout 2 ros2 topic hz /ibvs/depth/image_raw)",
+      "Bash(gz topic:*)",
+      "Bash(timeout 3 gz topic:*)",
+      "Bash(gz plugin:*)",
+      "Bash(gz sim:*)",
+      "Bash(timeout 2 ros2 run ibvs_controller camera_controller)",
+      "Bash(timeout 2 ros2 run ibvs_controller_cpp camera_controller_node)",
+      "Bash(timeout 3 gz model:*)",
+      "Bash(timeout 2 ros2 topic:*)",
+      "Bash(timeout 2 gz topic:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

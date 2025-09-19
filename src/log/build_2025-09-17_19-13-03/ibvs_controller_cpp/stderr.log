@@ -1,0 +1,8 @@
+In file included from /home/mluser/ibvs_project/src/ibvs_controller_cpp/src/camera_controller.cpp:1:
+/home/mluser/ibvs_project/src/ibvs_controller_cpp/include/ibvs_controller_cpp/camera_controller.hpp:8:10: fatal error: cv_bridge/cv_bridge.h: No such file or directory
+    8 | #include <cv_bridge/cv_bridge.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ibvs_controller_lib.dir/build.make:76: CMakeFiles/ibvs_controller_lib.dir/src/camera_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/ibvs_controller_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
