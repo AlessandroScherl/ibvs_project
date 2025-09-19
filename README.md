@@ -126,6 +126,7 @@ Implement feature extraction in:
 - ORB (recommended to start - fast and easy)
 - SIFT (more robust, slower)
 - AKAZE (good balance)
+- ...others you find
 
 **Steps:**
 1. Convert image to grayscale
